@@ -1,0 +1,26 @@
+{
+    "default" : {
+        "http_host" : "localhost",
+        "http_port" : 3000,
+        "db_host" : "localhost",
+        "db_port" : 27017,
+        "db_user" : "",
+        "db_pass" : "",
+        "app_secret" : "AskToEveryOne",
+        "debug" : false,
+        "app_public_api":"ASK421121990",
+        "mobile_admin": 9026329063,
+        "enable_sms":false,
+        "enable_email" : false
+    },
+    "development" : {
+        "env" : "development",
+        "db_name" : "Pets",
+        "debug" : true
+    },
+    "test" : {
+        "env" : "test",
+        "db_name" : "PetsTest",
+        "debug" : true
+    }
+}

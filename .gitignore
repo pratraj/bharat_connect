@@ -1,0 +1,4 @@
+node_modules/
+filelog-exceptions.log
+filelog-error.log
+filelog-info.log
